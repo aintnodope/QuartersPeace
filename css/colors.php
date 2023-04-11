@@ -4,12 +4,12 @@ header ("Content-Type:text/css");
 
 /** ===============================================================
  *
- *      Edit your Color Configurations below:
- *      You should only enter 6-Digits HEX Colors.
+ *      Edit Color Configurations below:
+ *      Only enter 6-Digits HEX Colors.
  *
  ================================================================== */
 
-$color = "#1ABC9C"; // Change your Color Here
+$color = "#D2B48C"; // Change Color Here
 
 /** ===============================================================
  *
@@ -35,7 +35,7 @@ if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
 }
 
 if( !$color OR !checkhexcolor( $color ) ) {
-	$color = "#1ABC9C";
+	$color = "#D2B48C";
 }
 
 ?>
