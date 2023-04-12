@@ -274,7 +274,7 @@
 			display: -ms-flexbox;
 			display: flex;
 		}
-		&.retina-logo { display: none; }
+		&.retina-logo { display: none;  }
 	}
 	img {
 		display: block;
@@ -334,6 +334,7 @@ only screen and (                min-resolution: 2dppx) {
 		&.retina-logo {
 			display: -ms-flexbox;
 			display: flex;
+			
 		}
 	}
 }
